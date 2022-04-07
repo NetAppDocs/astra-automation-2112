@@ -1,6 +1,6 @@
 ---
 settings:
-  name: Astra Automation
+  name: Astra Automation 21.12
   internal:
     pdf_enabled: true
   prod:
@@ -8,7 +8,7 @@ settings:
     harmony_enabled: true
 sidebar:
   entries:
-    - title: Astra Control Automation docs
+    - title: Astra Control Automation 21.12 docs
       url: /index.html
     - section: rn
     - section: intro
