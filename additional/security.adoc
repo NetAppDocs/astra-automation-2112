@@ -16,7 +16,7 @@ summary:
 The Astra Control REST API provides multiple layers of security.
 
 [NOTE]
-All HTTP network traffic is protected using the transport layer security (TLS) standard.
+All HTTP network traffic is protected using the transport layer security (TLS) protocol standard.
 
 == Astra API tokens
 
