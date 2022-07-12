@@ -242,35 +242,27 @@
     </div>
   </div>
   <div class="n-property-bar__toolbar">
-    <!-- Start Language Selector --><div id="ie-i18n" class="n-property-bar__lang-selector">
-      <div id="ie-i18n-menu">
-      <span class="ie-i18n-lang">English</span>
-        <button class="ie-i18n-icon-container" type="button">
+    <!-- Start Language Selector --><div id="language-dropdown" class="custom-dropdown custom-dropdown-lang">
+      <div class="custom-dropdown-select custom-dropdown-select-lang">
+      <span class="lang-name">English</span>
           <svg class="n-globe__icon" aria-labelledby="title">
             <title>globe</title>
             <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/us-en/astra-automation-2112/common/svg/sprite.svg#globe"></use>
           </svg>
         </button>
       </div>
-      <div id="n-property-navigation-bar__menu--language-selector" class="ie-i18n-results-container n-menu n-menu--v3 n-menu--is-active" style="display: none;">
-        <div class="n-language-selector-menu">
-          <ul class="n-menu__list">
-            <li class="n-menu__list-column">
-              <ul class="n-menu__list"><li class="n-menu__list-item n-menu__list-item--level-1">
-                  <a href="https://docs.netapp.com/us-en/astra-automation-2112//search.html" class="n-menu__header-text"><span translate="no" class="notranslate">English</span></a>
-                </li><li class="n-menu__list-item n-menu__list-item--level-1">
-                  <a href="https://docs.netapp.com/ja-jp/astra-automation-2112//search.html" class="n-menu__header-text"><span translate="no" class="notranslate">日本語</span></a>
-                </li><li class="n-menu__list-item n-menu__list-item--level-1">
-                  <a href="https://docs.netapp.com/ko-kr/astra-automation-2112//search.html" class="n-menu__header-text"><span translate="no" class="notranslate">한국어</span></a>
-                </li><li class="n-menu__list-item n-menu__list-item--level-1">
-                  <a href="https://docs.netapp.com/zh-cn/astra-automation-2112//search.html" class="n-menu__header-text"><span translate="no" class="notranslate">简体中文</span></a>
-                </li><li class="n-menu__list-item n-menu__list-item--level-1">
-                  <a href="https://docs.netapp.com/zh-tw/astra-automation-2112//search.html" class="n-menu__header-text"><span translate="no" class="notranslate">繁體中文</span></a>
-                </li></ul>
-            </li>
-          </ul>
-        </div>
-      </div>
+
+      <ul class="custom-dropdown-menu"><li>
+          <a href="https://docs.netapp.com/us-en/astra-automation-2112//search.html" target="_self"><span translate="no" class="notranslate">English</span></a>
+        </li><li>
+          <a href="https://docs.netapp.com/ja-jp/astra-automation-2112//search.html" target="_self"><span translate="no" class="notranslate">日本語</span></a>
+        </li><li>
+          <a href="https://docs.netapp.com/zh-cn/astra-automation-2112//search.html" target="_self"><span translate="no" class="notranslate">简体中文</span></a>
+        </li><li>
+          <a href="https://docs.netapp.com/zh-tw/astra-automation-2112//search.html" target="_self"><span translate="no" class="notranslate">繁體中文</span></a>
+        </li><li>
+          <a href="https://docs.netapp.com/ko-kr/astra-automation-2112//search.html" target="_self"><span translate="no" class="notranslate">한국어</span></a>
+        </li></ul>
     </div><!-- End Language Selector -->
 
     <div class="n-property-bar__cta"></div>
@@ -314,7 +306,7 @@
   <div class="col-md-3" id="sidebar-height">
       <div class="n-pdf-header">
   <a id="toggleButtonPdf" class="n-pdf-button" type="button">
-    <img src="/us-en/astra-automation-2112/images/pdf.png" width="16" height="16"/>Available PDFs<span>
+    <img src="/us-en/astra-automation-2112/images/pdf.png" alt="" width="16" height="16"/>Available PDFs<span>
     </span>
   </a>
 </div>
@@ -324,7 +316,7 @@
         
         
         <a target="_blank" href="/us-en/astra-automation-2112/pdfs/fullsite-sidebar/Astra_Control_Automation_21_12_documentation.pdf" >
-          <img src="/us-en/astra-automation-2112/images/pdf.png" width="16" height="16"/>PDF of this doc site</a>
+          <img src="/us-en/astra-automation-2112/images/pdf.png" alt="" width="16" height="16"/>PDF of this doc site</a>
 
 
 
@@ -339,7 +331,7 @@
               href="/us-en/astra-automation-2112/pdfs/sidebar/Release_notes.pdf" 
             
           >
-            <img src="/us-en/astra-automation-2112/images/pdf.png" width="16" height="16"/>
+            <img src="/us-en/astra-automation-2112/images/pdf.png" alt="" width="16" height="16"/>
             Release notes
           </a>
           
@@ -349,8 +341,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -372,7 +362,7 @@
               href="/us-en/astra-automation-2112/pdfs/sidebar/Get_started.pdf" 
             
           >
-            <img src="/us-en/astra-automation-2112/images/pdf.png" width="16" height="16"/>
+            <img src="/us-en/astra-automation-2112/images/pdf.png" alt="" width="16" height="16"/>
             Get started
           </a>
           
@@ -384,8 +374,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -405,7 +393,7 @@
               href="/us-en/astra-automation-2112/pdfs/sidebar/Core_REST_implementation.pdf" 
             
           >
-            <img src="/us-en/astra-automation-2112/images/pdf.png" width="16" height="16"/>
+            <img src="/us-en/astra-automation-2112/images/pdf.png" alt="" width="16" height="16"/>
             Core REST implementation
           </a>
           
@@ -417,8 +405,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -438,7 +424,7 @@
               href="/us-en/astra-automation-2112/pdfs/sidebar/Additional_REST_considerations.pdf" 
             
           >
-            <img src="/us-en/astra-automation-2112/images/pdf.png" width="16" height="16"/>
+            <img src="/us-en/astra-automation-2112/images/pdf.png" alt="" width="16" height="16"/>
             Additional REST considerations
           </a>
           
@@ -448,8 +434,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -471,7 +455,7 @@
               href="/us-en/astra-automation-2112/pdfs/sidebar/Infrastructure_workflows.pdf" 
             
           >
-            <img src="/us-en/astra-automation-2112/images/pdf.png" width="16" height="16"/>
+            <img src="/us-en/astra-automation-2112/images/pdf.png" alt="" width="16" height="16"/>
             Infrastructure workflows
           </a>
           
@@ -489,14 +473,12 @@
               href="/us-en/astra-automation-2112/pdfs/sidebar/Identity_and_access.pdf" 
             
           >
-            <img src="/us-en/astra-automation-2112/images/pdf.png" width="16" height="16"/>
+            <img src="/us-en/astra-automation-2112/images/pdf.png" alt="" width="16" height="16"/>
             Identity and access
           </a>
           
 
 
-
-          
         </li>
       </ul>
     
@@ -516,14 +498,12 @@
               href="/us-en/astra-automation-2112/pdfs/sidebar/Buckets.pdf" 
             
           >
-            <img src="/us-en/astra-automation-2112/images/pdf.png" width="16" height="16"/>
+            <img src="/us-en/astra-automation-2112/images/pdf.png" alt="" width="16" height="16"/>
             Buckets
           </a>
           
 
 
-
-          
         </li>
       </ul>
     
@@ -543,14 +523,12 @@
               href="/us-en/astra-automation-2112/pdfs/sidebar/Storage.pdf" 
             
           >
-            <img src="/us-en/astra-automation-2112/images/pdf.png" width="16" height="16"/>
+            <img src="/us-en/astra-automation-2112/images/pdf.png" alt="" width="16" height="16"/>
             Storage
           </a>
           
 
 
-
-          
         </li>
       </ul>
     
@@ -570,14 +548,12 @@
               href="/us-en/astra-automation-2112/pdfs/sidebar/Clusters.pdf" 
             
           >
-            <img src="/us-en/astra-automation-2112/images/pdf.png" width="16" height="16"/>
+            <img src="/us-en/astra-automation-2112/images/pdf.png" alt="" width="16" height="16"/>
             Clusters
           </a>
           
 
 
-
-          
         </li>
       </ul>
     
@@ -585,8 +561,6 @@
   
 
 
-
-          
         </li>
       </ul>
     
@@ -606,7 +580,7 @@
               href="/us-en/astra-automation-2112/pdfs/sidebar/Management_workflows.pdf" 
             
           >
-            <img src="/us-en/astra-automation-2112/images/pdf.png" width="16" height="16"/>
+            <img src="/us-en/astra-automation-2112/images/pdf.png" alt="" width="16" height="16"/>
             Management workflows
           </a>
           
@@ -624,7 +598,7 @@
               href="/us-en/astra-automation-2112/pdfs/sidebar/App_control.pdf" 
             
           >
-            <img src="/us-en/astra-automation-2112/images/pdf.png" width="16" height="16"/>
+            <img src="/us-en/astra-automation-2112/images/pdf.png" alt="" width="16" height="16"/>
             App control
           </a>
           
@@ -638,8 +612,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -659,7 +631,7 @@
               href="/us-en/astra-automation-2112/pdfs/sidebar/App_protection.pdf" 
             
           >
-            <img src="/us-en/astra-automation-2112/images/pdf.png" width="16" height="16"/>
+            <img src="/us-en/astra-automation-2112/images/pdf.png" alt="" width="16" height="16"/>
             App protection
           </a>
           
@@ -675,8 +647,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -696,7 +666,7 @@
               href="/us-en/astra-automation-2112/pdfs/sidebar/Cloning_and_restoring_an_app.pdf" 
             
           >
-            <img src="/us-en/astra-automation-2112/images/pdf.png" width="16" height="16"/>
+            <img src="/us-en/astra-automation-2112/images/pdf.png" alt="" width="16" height="16"/>
             Cloning and restoring an app
           </a>
           
@@ -708,8 +678,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -729,7 +697,7 @@
               href="/us-en/astra-automation-2112/pdfs/sidebar/Support.pdf" 
             
           >
-            <img src="/us-en/astra-automation-2112/images/pdf.png" width="16" height="16"/>
+            <img src="/us-en/astra-automation-2112/images/pdf.png" alt="" width="16" height="16"/>
             Support
           </a>
           
@@ -737,8 +705,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -746,8 +712,6 @@
   
 
 
-
-          
         </li>
       </ul>
     
@@ -767,7 +731,7 @@
               href="/us-en/astra-automation-2112/pdfs/sidebar/Using_Python.pdf" 
             
           >
-            <img src="/us-en/astra-automation-2112/images/pdf.png" width="16" height="16"/>
+            <img src="/us-en/astra-automation-2112/images/pdf.png" alt="" width="16" height="16"/>
             Using Python
           </a>
           
@@ -785,7 +749,7 @@
               href="/us-en/astra-automation-2112/pdfs/sidebar/Native_Python.pdf" 
             
           >
-            <img src="/us-en/astra-automation-2112/images/pdf.png" width="16" height="16"/>
+            <img src="/us-en/astra-automation-2112/images/pdf.png" alt="" width="16" height="16"/>
             Native Python
           </a>
           
@@ -793,8 +757,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -802,14 +764,11 @@
   
 
 
-
-          
         </li>
       </ul>
     
 
   
-
 
 
 
@@ -822,7 +781,7 @@
 </li></ul>
   <div class="zip-pdf-link-container" style="display: none;">   
     <a href="#" id="zipPdf">
-      <img src="/us-en/astra-automation-2112/images/pdf-zip.png" width="16" height="16"/>
+      <img src="/us-en/astra-automation-2112/images/pdf-zip.png" alt="" width="16" height="16"/>
       <pre>Collection of separate PDF docs<span class="zip-size"></span></pre>
     </a><div id="zip-link-popup" class="hide">
     <div class="inner-modal">
@@ -855,7 +814,7 @@
     $("#toggleContainerPdf").toggle('display');
     $(".n-pdf-body-container .zip-pdf-link-container").toggle('display');
   });
-</script><div class="sidebar-nav-container">
+</script><div class="sidebar-nav-container" id="mysidebardiv">
   <ul id="mysidebar" class="nav"><li class=" "><a class="na-navbar-padding" href="/us-en/astra-automation-2112/index.html">
         Astra Control Automation 21.12 docs
       </a></li><li class="subfolders "><a href="#">
@@ -1051,6 +1010,8 @@
   data-did-you-mean="Search for {suggestion}." 
   data-no-results-found-did-you-mean="No results found for {query}. Did you mean {suggestion}?" 
   data-results-found="{hitCount} results found"
+  data-error-message="We're sorry, an issue occurred when fetching your results. Please try again."
+  data-error-reset="Reset Search"
   data-sk-es-pf-indexes=""
   data-flavor=""></div>
   <button class="search-all-icon n-property-bar__search-toggle-button" type="button">
@@ -1207,7 +1168,9 @@
     </script>
     <script src='/us-en/astra-automation-2112/js/www-ntap.js'></script>
     <script src='/us-en/astra-automation-2112/js/tabbed-blocks.js'></script>
+    <script src='/us-en/astra-automation-2112/js/sidebar.js'></script>
   </body><script>
+    /*
       if(hasParameter(window.location.search,'q')) {
         var queryString = decodeURI(getParameter(window.location.search, 'q'));
         document.getElementsByClassName("sk-search-box__text")[0].setAttribute("value", queryString);
@@ -1230,4 +1193,5 @@
         param = param || "";
         return (searchString.indexOf("?"+param+"=") != -1 || searchString.indexOf("&"+param+"=") != -1);
       }
+      */
   </script></html>
