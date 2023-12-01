@@ -22,6 +22,8 @@ settings:
       url: /astra-automation-2208
     - version-number: "22.04"
       url: /astra-automation-2204   
+    - version-number: "21.08"
+      url: /astra-automation-2108        
 sidebar:
   entries:
     - title: Astra Control Automation 21.12 docs
